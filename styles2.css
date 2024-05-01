@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6B5050;
+  }
+  
+  .navbar {
+    background-color: #6B5050;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .navbar .profile {
+    font-weight: bold;
+  }
+  
+  .navbar .cart {
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu-container {
+    background-color:#6B5050;
+    text-align: center;
+    padding: 20px;
+  }
+  .please-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .menu-c{
+    background-color: white;
+  }
+  .menu-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .food-grid {
+    justify-content: center;
+    margin-top: 10px;
+  /*gap: 10px;
+  gap: 10px 10px; 
+  row-gap: 10px;
+  column-gap: 10px; */
+  }
+  
+  .food-item {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: calc(33.33% - 20px); /* Adjust width as needed */
+  }
+  
+  .food-item img {
+    width: 50%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .food-item h3 {
+    margin: 0;
+  }
+  
+  .food-item p {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  
